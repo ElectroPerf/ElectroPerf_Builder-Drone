@@ -5,7 +5,7 @@ mv telegram-send.conf $HOME/telegram-send.conf
 cd $HOME
 
 echo Cloning Sources
-git clone https://github.com/ElectroPerf/android_kernel_asus_sdm660-LTO.git -b X01BD-P-WIFI-STABLE Kernel
+git clone https://github.com/ElectroPerf/android_kernel_asus_sdm660-LTO.git Kernel
 
 echo Installing Telegram API
 pip3 install telegram-send
